@@ -9,7 +9,6 @@ pub struct Config {
 }
 
 impl Config {
-
     pub fn new(args: &[String]) -> Config {
         let filename = args[FILENAME_INDEX].clone();
         let query = args[QUERY_INDEX].clone();
